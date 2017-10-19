@@ -1,0 +1,145 @@
+/** @Last Modified by:   aicai
+* @Last Modified time: 2017-10-19 11:11:03
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #ed772f;
+	padding: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.gb{
+	display: block;
+	width: 0.72rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: white;
+	line-height: 0.36rem;
+}
+
+.dl{
+	display: block;
+	width: 0.72rem;
+	height: 0.36rem;
+    font-size: 0.36rem;
+	color: white;
+	line-height: 0.36rem;
+}
+.zc{
+	display: block;
+	width: 0.72rem;
+	height: 0.28rem;
+	 /*background: pink;*/ 
+	font-size: 0.28rem;
+	color: white;
+	line-height: 0.28rem;
+}
+/* 头部结束 */
+/*输入开始*/
+.sr{
+	width: 100%;
+	height: 5.3rem;
+	/*background: red;*/
+	padding:0.55rem 0.25rem;
+	float:left;
+	
+}
+.sr-mz,.sr-mm{
+	width: 7rem;
+	height: 0.95rem;
+	margin-top: 0.25rem;
+	margin:0 auto;
+	padding:0.3rem 0 ;
+	border-bottom: 1px solid #7a7a7a;
+}
+.sr-mztitle,.sr-mmtitle{
+	width:1.8rem;
+	height:0.3rem ;
+	font-size: 0.25rem;
+	float:left;
+	text-align: right;
+	line-height: 0.3rem;
+}
+.sr input{
+	width: 5.2rem;
+	height: 0.35rem;
+	float:right;
+	border:0;
+	outline: none;
+}
+.sr-title{
+	width: 3.86rem;
+	height: 0.5rem;
+	margin:0 auto;
+	/*background: blue;*/
+	font-size: 0.45rem;
+	text-align: center;
+}
+.sr-dl{
+	display: block;
+	width: 7rem;
+	height: 0.9rem;
+	margin:0.4rem auto;
+	background: #ed772f;
+	border-radius: 0.3rem;
+	padding:0.3rem ;
+	font-size: 0.3rem;
+	text-align: center;
+	color:white;
+}
+/*输入结束*/
+/*提示界面开始*/
+.ts{
+	width: 100%;
+	height: 2.42rem;
+	/*background: red;*/
+	
+	float:left;
+	margin:0 auto;
+}
+.tsk{
+	width: 7.07rem;
+	height: 2.42rem;
+	/*background: blue;*/
+	margin:0 auto;
+	border:1px dashed #7a7a7a;
+	position: relative;
+}
+.tsline1{
+	width: 1.1rem;
+	height: 0.29rem;
+	/*background: blue;*/
+	margin-top: 0.15rem;
+	margin-left: 0.2rem;
+	font-size: 0.29rem;
+	color:#cf413b;
+	
+}
+.tsline2{
+	width: 4.74rem;
+	height: 0.26rem;
+	/*background: blue;*/
+	margin-top: 0.32rem;
+	margin-left: 0.2rem;
+	font-size: 0.26rem;
+	color:#666666;
+	
+	line-height: 0.26rem;
+}
+.tsline4{
+	width: 1.14rem;
+	height: 0.97rem;
+	background: #ed772f;
+	position: absolute;
+	right:0.75rem;
+	bottom:0.45rem;
+	font-size: 0.29rem;
+	color:white;
+	text-align: center;
+	line-height: 0.97rem;
+}
+/*提示界面结束*/

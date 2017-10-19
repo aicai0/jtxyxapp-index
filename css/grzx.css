@@ -1,0 +1,255 @@
+/** @Last Modified by:   aicai
+* @Last Modified time: 2017-10-19 11:45:08
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #ed772f;
+	padding: 0.3rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.lx{
+	display: block;
+	width: 1.54rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: white;
+	
+	line-height: 0.36rem;
+}
+
+.wd{
+	display: block;
+	width: 0.72rem;
+	height: 0.36rem;
+	
+    font-size: 0.36rem;
+	color: white;
+	line-height: 0.36rem;
+	
+}
+.sz{
+	width: 0.42rem;
+	height: 0.42rem;
+	/* background: red; */
+}
+.sz img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 头部结束 */
+/* 头像开始 */
+.tx{
+	width: 100%;
+	height: 2rem;
+	padding: 0.2rem  0.2rem 0;
+}
+.tx-nr{
+	width: 6.96rem;
+	height: 1.8rem;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.01rem solid #b2b2b2;
+	margin: 0 auto;
+}
+.tx-tp{
+	display: block;
+	width: 1.56rem;
+	height: 1.56rem;
+	float: left;
+	/* background: red; */
+}
+.tx-tp img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tx-wz{
+	width: 2.44rem;
+	height: 1.02rem;
+	float: left;
+	margin-left:0.18rem ;
+	/* background: red; */
+	margin-top: 0.52rem;
+}
+.tx-dl{
+	width: 1.88rem;
+	height: 0.42rem;
+	/* background: blue; */
+	font-size: 0.42rem;
+	line-height: 0.42rem;
+	color: #000;
+}
+.tx-tq{
+	width: 2.44rem;
+	height: 0.22rem;
+	/* background: blue; */
+	margin-top: 0.3rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #000;
+
+}
+/* 头像结束 */
+/* 个人信息开始 */
+.grxx{
+	width: 100%;
+	height: auto;
+}
+.grxx-rz{
+	width: 6.96rem;
+	height: 1.24rem;
+	margin: 0 auto;
+	padding: 0.2rem;
+}
+.grxx-rz li{
+   width: 1.3rem;
+   height: 0.8rem;
+   font-size: 0.25rem;
+   float: left;
+   margin-right: 0.3rem;
+}
+.grxx-ye{
+	width: 0.7rem;
+	height: 0.3rem;
+	margin: 0 auto ;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #ed782f;
+	text-align: center;
+	line-height:  0.3rem;
+}
+.grxx-xm{
+	width: 1.3rem;
+	height: 0.25rem;
+	/* background: red; */
+	margin-top: 0.2rem;
+	font-size: 0.25rem;
+	color: #999;
+	text-align: center;
+	line-height:  0.25rem;
+}
+/* 我的订单开始 */
+.wddd{
+	width: 100%;
+	height: 2.26rem;
+	padding: 0.3rem 0.34rem 0.4rem;
+	border-top: 0.2rem solid #f4f4f4;
+	border-bottom: 0.2rem solid #f4f4f4;
+}
+.wddd-title{
+	width: 1.2rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #666;
+	line-height: 0.3rem;
+	/* background: red; */
+}
+.wddd-zt{
+    width: 6.1rem;
+    height:0.92rem; 
+    margin-left: 0.3rem;
+    margin-top: 0.36rem;
+}
+.wddd-zt li{
+	width: 1rem;
+    height:0.92rem;
+    margin-right: 0.6rem;
+    float: left;
+}
+.wddd-zt li:last-child{
+	margin-right: 0rem;
+}
+.wddd-tp{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.wddd-tp img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wddd-xm{
+	width: 1rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+/* 我的订单结束 */
+/* 其他信息开始 */
+.qtxx{
+	width: 7.24rem;
+	height: auto;
+}
+.qtxx li{
+	width: 7.24rem;
+	height: 0.86rem;
+	margin-left: 0.26rem;
+	padding: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+.qtxx-nr{
+	width: 1.5rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	color: #000;
+}
+.qtxx-gd{
+	width: 0.36rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+	color: #000;
+}
+/* 其他信息结束 */
+/* 个人信息结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.95rem;
+    background: white; 
+	padding: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.foot-name{
+   width: 0.5rem;
+   height: 0.22rem;
+   font-size: 0.22rem;
+   color: #666;
+   text-align: center;
+}
+.foot-box:nth-child(3) .foot-name,.foot-box:nth-child(4) .foot-name,.foot-box:nth-child(5) .foot-name{
+   width:0.9rem;
+}
+.logo{
+	width: 0.46rem;
+	height: 0.44rem;
+	margin: 0 auto;
+}
+.logo i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.44rem;
+	color: #333;
+	line-height: 0.44rem;
+	text-align: center;
+}
+.foot-box:last-child .logo i{
+   color: #ED772F;
+}
+.foot-box:last-child .foot-name{
+   color: #ED772F;
+}
+/* 底部结束 */
